@@ -1,0 +1,132 @@
+/* *{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* body{
+    /* background-color: black; */
+/* } */
+.container{
+    text-align: center;
+    margin-top: 180px;
+}
+input{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    text-align: center;
+    border-color: red;
+    background-color: aqua;
+}
+h1{
+    display: none;
+}
+.active{
+    display: block;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 90px;
+}
+p{
+    display: none;
+
+}
+.actives{
+    display: block;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 90px;
+}
+.show{
+    display: block;
+
+}
+.btn{
+    margin-left: 600px;
+    border-color: green;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+#num1{
+    border-top: 0;
+    border-left: 0;
+}
+.hide{
+    display: none;
+}
+.count{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 443px;
+    right: 85px;
+}
+/* span{
+    padding-left: 48px;
+    /* position: relative;
+    left: 20px; */
+/* } */ */
+.count2{
+    margin-left: 30px;
+}
+.btn1{
+    border-color: red;
+    border-radius: 5px;
+    background-color: lightblue;
+    height: 40px;
+    width: 115px;
+    margin-left: 1085px;
+    position: relative;
+    bottom: 352px;
+    right: 52px;
+
+}
+.color{
+    color: #000;
+    background-color: white;
+    height: 30px;
+    width: 288px;
+    font-size: 30px;
+}
+.colors{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 288px;
+    font-size: 30px;
+}
+.header{
+    display: none;
+}
+.headshow{
+    display: block;
+}
+.form{
+    display: none
+}
+.formcontent{
+    text-align: center;
+    margin-top: 213px;
+
+}
+#btn4{
+    height: 35px;
+    width: 118px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 19px;
+}
+h3{
+    font-size: 33px;
+    color: aqua;
+}
+.starts{
+    font-size: 200px;
+    text-align: center;
+    color: fuchsia;
+}

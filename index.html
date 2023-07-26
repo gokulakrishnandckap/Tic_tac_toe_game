@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>X & O game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="inp1">
+                <input type="text" maxlength="1" name="" id="input">
+                <input type="text" maxlength="1"  name="" id="input">
+                <input type="text" maxlength="1"  name="" id="input">
+            </div>
+            <div class="inp2">
+                <input type="text" maxlength="1"  name="" id="input">
+                <input type="text" maxlength="1"  name="" id="input">
+                <input type="text" maxlength="1"  name="" id="input">
+            </div>
+             <div class="inp3">
+                <input type="text" maxlength="1"  name="" id="input">
+                <input type="text" maxlength="1"  name="" id="input">
+                <input type="text" maxlength="1" name="" id="input">
+             </div>
+            
+             
+        </div><br><br>
+        <h1 class="won"> <span class="winner1">X</span> Winner</h1>
+        <h1 class="loss"> <span class="winner2">O</span> Winner</h1>
+        <p>Match Draw</p>
+        <button class="btn" type="reset">Play Again</button>
+        <div class="count">
+            <div class="count1">
+                <h2 class="inpVal"> <span class="name1">X</span>-points  </h2>
+                <span class="add1">0</span>
+            </div>
+            <div class="count2">
+                <h2><span class="name2">O</span>-points</h2>
+                <span class="add2">0</span>
+            </div>
+            
+        </div>
+        <button class="btn1">Restart Game</button>
+
+    </div>
+    <div class="formcontent form">
+        <form>
+            <input type="text" class="color" placeholder="Player1">
+            <h3>VS</h3>
+            <input type="text" class="colors" placeholder="Player2">
+            <h4></h4>
+            <button type="submit" id="btn4">Submit</button>
+        </form>
+    </div>
+    <h1 class="starts">Let's Play</h1>
+   <div class="selection">
+        <!-- <button class="but1">single player</button> -->
+   </div>
+   <div class="select">
+    <button class="but2">two player</button>
+   </div>
+    <script src="tictac.js"></script>
+</body>
+</html>
